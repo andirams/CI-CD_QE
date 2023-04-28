@@ -13,7 +13,7 @@ public class Delete {
 
     @Step("I set DELETE api endpoints")
     public String setDeleteApiEndpoints() {
-        return url + "posts/1";
+        return url + "posts/2";
     }
 
     @Step("I send DELETE HTTP request")
